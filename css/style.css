@@ -2,4 +2,40 @@
 	padding: 0;
 	margin:0;
 }
+#main
+{
+	width: 100%;
+}
 
+#logoContainer
+{
+	width: 100%;
+	text: center;
+	margin-bottom: 60px;
+	
+}
+
+#logo
+{	
+	width: 736px;
+	display: block;
+	padding-left: 900px;
+}
+
+
+#leftColumn
+{
+	width: 1400;
+	float: left;
+}
+
+#box
+{
+	width: 600px;
+	float: left;
+}
+
+#rightColumn
+{
+	width: 1050;
+}
