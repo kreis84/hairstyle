@@ -1,41 +1,83 @@
-* {
+body
+{
+	margin: 0;
 	padding: 0;
-	margin:0;
-}
-#main
-{
-	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #ededed;
+	color: #181d30;
 }
 
-#logoContainer
+.headerContainer
 {
+	background-color: #4c8f96;
 	width: 100%;
-	text: center;
 	margin-bottom: 60px;
-	
+}
+header{
+	width: 940px;
+	height: 180px;
+	margin: auto;
 }
 
-#logo
-{	
-	width: 736px;
+.logo
+{
+	background: url(../img/hairstylesalon_03.png);
+	width: 270px;
+	height: 130px;
+	position: relative;
+	top: 60px;
+}
+
+nav
+{
+	float: right;
+}
+
+nav a
+{
+	padding: 10px 15px;
+	background-color: #1b2130;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+article
+{
+	max-width: 940px;
+	margin:auto;
+}
+
+
+.mainLogo
+{
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+
+article section
+{
+	width: 23%;
+	margin-right: 2%;
 	display: block;
-	padding-left: 900px;
-}
-
-
-#leftColumn
-{
-	width: 1400;
 	float: left;
 }
 
-#box
+article section img
 {
-	width: 600px;
-	float: left;
+	max-width: 100%;
 }
 
-#rightColumn
+article section:last-child
 {
-	width: 1050;
+	margin-right: 0;
+}
+
+.featured
+{
+	height: 600px;
+	width: 48%;
+	background: url(../img/hairstylesalon_24.png) no-repeat ;
+	background-size: cover;
 }
