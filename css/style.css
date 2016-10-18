@@ -32,6 +32,8 @@ header{
 nav
 {
 	float: right;
+	position: relative;
+	top: 10px;
 }
 
 nav a
@@ -41,6 +43,18 @@ nav a
 	border-radius: 5px;
 	color: white;
 	text-decoration: none;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+nav a:hover 
+{
+	letter-spacing: 4px;
+}
+
+nav a.miniButton
+{
+	display: none;
 }
 
 article
@@ -48,7 +62,6 @@ article
 	max-width: 940px;
 	margin:auto;
 }
-
 
 .mainLogo
 {
@@ -80,7 +93,8 @@ article section:last-child
 	width: 48%;
 	border: 5px solid #5fb3bd;
 	padding: 15px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	position: relative;
 	float: left;
 

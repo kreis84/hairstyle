@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 940px)
+{
+	header
+	{
+		width: 100%;
+	}
+	header nav
+	{
+		font-size: 0.8em;
+	}
+	header nav a 
+	{
+		padding: 10px 10px;
+	}
+	section.featured
+	{
+		margin: 20px 10px;
+		width: 98%;
+	}
+	section.hairstyle, section.last
+	{
+		width: 46%;
+		margin: 1%;
+		overflow: hidden;
+	}
+
+}
+
+@media screen and (max-width: 700px)
+{
+	nav 
+	{
+		width: 98%;
+		float: initial;
+		
+	}
+
+	nav a:not(.miniButton)
+	{
+	}
+	
+	nav a.miniButton
+	{
+		display: none;
+	}
+
+}
