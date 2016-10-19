@@ -36,27 +36,40 @@ nav
 	float: right;
 	position: relative;
 	top: 10px;
+	transition: display 1s;
 }
 
 nav a
 {
 	padding: 10px 15px;
 	background-color: #1b2130;
+	border: 3px solid rgba(0,0,0,0);
 	border-radius: 5px;
 	color: white;
 	text-decoration: none;
-	-webkit-transition: letter-spacing 1s;
-	transition: letter-spacing 1s;
+	transition: border 0.5s;
 }
 
 nav a:hover 
 {
-	letter-spacing: 4px;
+	border: 3px solid white;
 }
 
-nav a.miniButton
+a.miniButton
 {
+	float: right;
+	color: white;
+	background-color: #1b2130;
+	text-decoration: none;
+	padding: 10px 15px;
 	display: none;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.temp
+{
+	display: block;
 }
 
 article
@@ -85,11 +98,6 @@ article section img
 	max-width: 100%;
 }
 
-article section:last-child
-{
-	margin-right: 0;
-}
-
 .featured
 {
 	width: 48%;
@@ -109,8 +117,9 @@ article section:last-child
 	background-color: #1b2130;
 	color: #ededed;
 	padding: 10px 20px;
-	display: inline;
+	display: inline-block;
 	left: 15px;
+ 	z-index: 10;
 }
 
 .featured h4
@@ -142,6 +151,7 @@ article section:last-child
 	width: 48%;
 	margin-right: 0;
 	margin-bottom: 25px;
+	z-index: -10;
 }
 
 .hairstyle p

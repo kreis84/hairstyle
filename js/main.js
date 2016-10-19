@@ -1,11 +1,13 @@
 $(document).ready(function() {
-	$('header').on('click','nav:before', MAIN.miniMenuClick);
+	$('header').on('click','a.miniButton', MAIN.miniMenuClick);
 });
 
 var MAIN = (function (){
 
 	return{
-		miniMenuClick: function(){alert('sdfsd')}
-
-	}
+		miniMenuClick: function(){
+//		 $('nav').toggleClass('temp');
+		$('nav').slideToggle(400);
+		}	
+	};
 })();

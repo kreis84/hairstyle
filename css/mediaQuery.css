@@ -1,3 +1,10 @@
+@media screen and (min-width: 700px)
+{
+	nav
+	{
+		display: inline-block !important;
+	}
+}
 
 @media screen and (max-width: 940px)
 {
@@ -15,8 +22,9 @@
 	}
 	section.featured
 	{
-		margin: 20px 10px;
-		width: 98%;
+		margin: 20px 2%;
+		width: 94%;
+		
 	}
 	section.hairstyle, section.last
 	{
@@ -32,22 +40,48 @@
 	nav 
 	{
 		display: none;
-		width: 98%;
+		width: 100%;
 		float: initial;
 		position: relative;
 		top: 80px;	
+		
 	}
 
-	nav a:not(.miniButton)
+	nav a
 	{
-		display: block;
-		width: 98%;
+		width: 90%;
 		margin: 5px auto;
+		display: block;
+		text-align: center;
 	}
 	
-	nav a.miniButton
+	a.miniButton
 	{
-		
+		display: block;
+		position: absolute;		
+		right: 20px;
+	}
+
+	article section
+	{
+		width: 46%;
+		margin: 0 2%;
+		text-align: center;
+	}
+	
+	article section img
+	{
+		max-width: 100%;
+		margin: auto;
+		display: block;
+	}
+
+	section.hairstyle, section.last
+	{
+		width: 90%;
+		margin: auto auto;
+		float: initial;
+		margin-top: 20px;
 	}
 
 }
