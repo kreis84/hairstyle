@@ -14,10 +14,11 @@ body
 	width: 100%;
 	margin-bottom: 60px;
 }
+
 header{
 	width: 940px;
-	height: 180px;
 	margin: auto;
+	padding-bottom: 50px;
 }
 
 .logo
@@ -27,6 +28,7 @@ header{
 	height: 130px;
 	position: relative;
 	top: 60px;
+	
 }
 
 nav

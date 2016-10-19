@@ -31,18 +31,23 @@
 {
 	nav 
 	{
+		display: none;
 		width: 98%;
 		float: initial;
-		
+		position: relative;
+		top: 80px;	
 	}
 
 	nav a:not(.miniButton)
 	{
+		display: block;
+		width: 98%;
+		margin: 5px auto;
 	}
 	
 	nav a.miniButton
 	{
-		display: none;
+		
 	}
 
 }
