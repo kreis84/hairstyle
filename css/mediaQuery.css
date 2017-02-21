@@ -28,11 +28,23 @@
 	}
 	section.hairstyle, section.last
 	{
-		width: 46%;
-		margin: 1%;
-		overflow: hidden;
+	    width: 96%;
+	    margin: 1%;
+	    overflow: hidden;
 	}
-
+	.last
+	{
+		height: auto;
+	}
+	footer
+	{
+		width: 100%;
+	}
+	footer div.socialWrapper
+	{
+		float: left;
+		margin-left: 20px;
+	}
 }
 
 @media screen and (max-width: 700px)
@@ -78,10 +90,38 @@
 
 	section.hairstyle, section.last
 	{
-		width: 90%;
+		display: block;
+	}
+
+	article section
+	{
+		width: 46%;
+		margin: 0 2%;
+		text-align: center;
+	}
+	
+	article section img
+	{
+		max-width: 100%;
+		margin: auto;
+		display: block;
+	}
+
+	footer
+	{
+		width: 100%;
 		margin: auto auto;
 		float: initial;
 		margin-top: 20px;
 	}
-
+	
+	footer p
+	{
+		padding-top: 10px;
+	}
+	footer div.socialWrapper
+	{
+		position: static;	
+		margin-right: 2%;
+	}
 }
